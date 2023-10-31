@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>sneaker Shop</title>
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <!-- header section starts  -->
+   <header class="header">
+      <section class="flex">
+         <a href="#home" class="logo"><img src="images/logo.jpg" alt=""></a>
+         <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#about">about</a>
+            <a href="#heading">our service</a>
+            <a href="#menu">menu</a>
+            <a href="#contact">contact</a>
+         </nav>
+         <div id="menu-btn" class="fas fa-bars"></div>
+      </section>
+   </header>
+   <!-- header section ends -->
+   <!-- home section starts  -->
+   <div class="home-bg">
+      <section class="home" id="home">
+         <div class="content">
+            <h3>Welcome</h3>
+            <h4>to</h4>
+            <h3> sneaker Shop</h3>
+            <p>Visit us and buy our best collection</p>
+            <a href="#contact" class="btn">contact us</a>
+         </div>
+         <div class="content">
+            <img src="images/content.jpg" alt="">
+         </div>
+      </section>
+   </div>
+   <!-- home section ends -->
+   <!-- about section starts  -->
+   <section class="about" id="about">
+      <div class="image">
+         <img src="images\about.jpg" alt="">
+      </div>
+      <div class="content">
+         <h3>Sneaker</h3>
+         <p>Sneakers, often referred to as tennis shoes or athletic footwear, have evolved into a significant element of contemporary fashion and culture. These comfortable and adaptable shoes have transcended their original purpose as sports gear. </p>
+         <p>
+            Today, sneakers are not only valued for their performance and comfort but also for their stylish and iconic designs. People of various age groups, from athletes and fitness enthusiasts to fashion-forward individuals, embrace sneakers. They symbolize comfort and casual sophistication.
+           </p>
+      </div>
+   </section>
+   <!-- about section ends -->
+   <!-- facility section starts  -->
+   <section class="heading" id="heading">
+      <h3>our Services</h3>
+      <div class="box-container">
+         <div class="box">
+            <img src="images\menu.jpg" alt="">   
+         </div> 
+      </div>
+   </section> 
+   <!-- facility section ends -->
+   <!-- menu section starts  -->
+   <section class="menu" id="menu">
+      <div class="heading">       
+         <h3>popular menu</h3>
+      </div>
+      <div class="box-container">
+         <div class="box">
+            <img src="images\adidas.jpg" alt="">
+            <h3>Adidas</h3>
+            <h4>5000</h4>      
+         </div>
+         <div class="box">
+            <img src="images\nike.jpg" alt="">
+            <h3>Nike</h3>
+            <h4>6000</h4>         
+         </div>
+         <div class="box">
+            <img src="images\puma.jpg" alt="">
+            <h3>Puma</h3>
+            <h4>7999</h4>          
+         </div>
+         <div class="box">
+            <img src="images\air jordan.jpg" alt="">
+            <h3>Air Jordan</h3>
+            <h4>10000</h4>
+         </div>
+         <div class="box">
+            <img src="images\gucci.jpg" alt="">
+            <h3>Gucci</h3>
+            <h4>9000</h4>
+         </div>
+         <div class="box">
+            <img src="images\converse.jpg" alt="">
+            <h3>Converse</h3>
+            <h4>4500</h4>
+         </div>
+      </div>
+   </section>
+   <!-- menu section ends -->
+   <!-- contact section starts  -->
+   <section class="contact" id="contact">
+      <div class="heading">
+         <h3>contact us</h3>
+      </div>
+      <div class="row">
+         <div class="image">
+            <img src="" alt="">
+         </div>
+         <form action="http://127.0.0.1:5500/index.html#home" method="post">
+            <h3>book a Sneaker</h3>
+            <input type="text" name="name" required class="box" maxlength="20" placeholder="enter your name">
+            <input type="number" name="number" required class="box" maxlength="20" placeholder="enter your number"
+               min="1" max="9999999999" onkeypress="if(this.value.length == 10) return false">
+            <input type="number" name="guests" required class="box" maxlength="20" placeholder="how many required" min="1"
+               max="99" onkeypress="if(this.value.length == 2) return false">
+            <input type="submit" name="send" value="send message" class="btn">
+         </form>
+      </div>
+   </section>
+   <!-- contact section ends -->
+   <!-- footer section starts  -->
+   <section class="footer">
+      <div class="box-container">
+         <div class="box">
+            <i class="fas fa-envelope"></i>
+            <h3>our email</h3>
+            <p>sneakers@gmail.com</p>
+         </div>
+         <div class="box">
+            <i class="fas fa-clock"></i>
+            <h3>opening hours</h3>
+            <p>09:00am to 06:00pm</p>
+         </div>
+         <div class="box">
+            <i class="fas fa-map-marker-alt"></i>
+            <h3>shop location</h3>
+            <p>pan, India</p>
+         </div>
+         <div class="box">
+            <i class="fas fa-phone"></i>
+            <h3>our number</h3>
+            <p>+91-1234567890</p>
+            <p>+91-1234567890</p>
+         </div>
+      </div>
+      <div class="credit"> &copy; copyright @ 2023 by Priyansu Sonu | all rights reserved! </div>
+   </section>
+   <!-- footer section ends -->
+   <!-- custom js file link  -->
+   <script src="js/script.js"></script>
+</body>
+</html>
